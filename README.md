@@ -36,7 +36,7 @@ Q1: Why my training code keeps aborting when I didn't make it stop?
 
 Q2: Why the code took so long to train my model? 
 
-- A2: Tensorflow models took time to load their whole computational graph into RAM. Normally, you could see progress reports after 100 steps and could see average time taken to train per step. The estimated time could also be calculated with roughly 10s / step for each 100 images in your dataset.
+- A2: Tensorflow models took time to load their whole computational graph into RAM. Normally, you could see progress reports after 100 steps and could see average time taken to train per step. The estimated time could also be calculated with roughly 5s / step on free Google Colab runtime for each 100 images in your dataset.
 
 Q3: Could the training code start upon my checkpoints?
 
