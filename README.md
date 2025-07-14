@@ -1,6 +1,8 @@
 # FTC-Object-Detection-Tutorial
 Best Limelight 3A Object Detection Tutorial for First Tech Challenge teams who are new to machine learning and want to enhance their performance by Object Detection
 
+Link to colab: https://colab.research.google.com/drive/1Va2sn476X0AMfYKHIClsrEXm5QalcM0_?usp=sharing
+
 - Model used: SSD Mobilenet V2 FPNlite 320*320 from Tensorflow V2 Object Detection model zoo
 - Pretrain Dataset: Coco 17
 - Recommended training dataset format: TFRecords
