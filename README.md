@@ -24,6 +24,8 @@ Best Limelight 3A Object Detection Tutorial for First Tech Challenge teams who a
 
 6: Your model would be automatically downloaded. Upload the 8bit tflite model and labels.txt to your limelight. 
 
+7: Free Google Colab do sometimes kill their connection and delete all files, if you want continuous training over a long time period, you should have a copy training_output on your local device once in a while to prevent progress loss.
+
 ## **FAQ**
 
 Q1: Why my training code keeps aborting when I didn't make it stop?
