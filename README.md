@@ -7,6 +7,8 @@ Link to colab: https://colab.research.google.com/drive/1Va2sn476X0AMfYKHIClsrEXm
 - Pretrain Dataset: Coco 17
 - Recommended training dataset format: TFRecords
 - Recommended labeling platform: Roboflow
+- Recommended dataset size: 200 labeled images
+  - Sample training data only contains 17 labeled images and could achieve a high detection accuracy as shown
 - Developed by Treeman 19600 <3
 
 ## **Steps to use:**
