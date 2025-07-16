@@ -3,6 +3,7 @@ Best Limelight 3A Object Detection Tutorial for First Tech Challenge teams who a
 
 Link to colab: https://colab.research.google.com/drive/1Va2sn476X0AMfYKHIClsrEXm5QalcM0_?usp=sharing
 
+- ***This tutorial is heavily inspired by limelight official colab tutorial*** https://colab.research.google.com/github/LimelightVision/notebooks/blob/main/limelight-detector-training-notebook.ipynb#scrollTo=gN0EUEa3e5Un. However, we wrote this tutorial from scratch to make the model more efficient and more friendly to new learners.
 - Model used: SSD Mobilenet V2 FPNlite 320*320 from Tensorflow V2 Object Detection model zoo
 - Pretrain Dataset: Coco 17
 - Recommended training dataset format: TFRecords
