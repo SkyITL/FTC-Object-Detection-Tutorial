@@ -16,6 +16,8 @@ Link to colab: https://colab.research.google.com/drive/1Va2sn476X0AMfYKHIClsrEXm
 
 0: Collect data and label with any labeling tool. Export your data in *TFRecord* format. You do not need to augment the dataset with horizontal flips - the code does that already.
 
+<img width="3024" height="1660" alt="image" src="https://github.com/user-attachments/assets/a6fb5029-8ef7-4f33-bb39-33d12fc21155" />
+
 1: **Rename** your dataset folder to /tfrecords.
   - Your dataset structure should contain /tfrecords/train/objects.tfrecord, /tfrecords/valid/objects.tfrecord, /tfrecords/test/objects.tfrecord and etc.
 
@@ -57,3 +59,6 @@ Q6: Why my tflite model's performance is significantly worse than my original tf
 
 - A6: Your model is not correctly aligned after converting. Although unlikely, manually pick your representative data so they are diverse and truely representative or change quantizing methods.
 
+# Credit:
+
+- 2024 intothedeep example raw images from https://github.com/6165-MSET-CuttleFish/ITD-Tensorflow (annotated by hand)
